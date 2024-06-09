@@ -1,4 +1,6 @@
-import '../styles/globals.css'
+import Header from '@/components/Header'
+import '../../styles/globals.css'
+import Banner from '@/components/Banner';
 
 export const metadata = {
   title: 'The Blog',
@@ -12,7 +14,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header />
+        <Banner />
+        {children}
+      </body>
     </html>
-  )
+  );
 }
