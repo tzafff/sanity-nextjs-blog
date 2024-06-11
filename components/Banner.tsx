@@ -3,16 +3,16 @@ const Banner = () => {
     <div className="flex flex-col lg:flex-row lg:space-x-5 justify-between font-bold px-10 py-5 mb-10">
       <div>
         <h1
-          className="text-5xl"
+          className="text-3xl"
           style={{ fontFamily: "Georgia, serif", color: "#5f77c5" }}
         >
-          Tzaff&apos;s Daily Web3 Blog
+          Daily Web3 Blog Posts
         </h1>
 
         <h2 className="mt-10 md:mt-5">
           Welcome to{" "}
           <span className="underline decoration-4 decoration-[#5f77c5]">
-            The Blockchain Enthusiast's Hub
+            The Blockchain Enthusiast&apos;s Hub
           </span>{" "}
           in the Cryptoverse.
         </h2>
