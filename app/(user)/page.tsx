@@ -11,19 +11,10 @@ const query = groq`
   } | order(publishedAt asc)
 `;
 
-
+export const revalidate = 60; // Revalidate every 60 seconds
 
 export default async function HomePage() {
-   
-//     draftMode().disable()
-//      console.log(draftMode().isEnabled);
-//   if (draftMode().isEnabled) {
-//     return <div>Preview Mode</div>;
-//   }
-
   const posts = await client.fetch(query);
-  console.log(posts.length)
-  return (
-        <BlogList posts={posts}/>
-  );
+  console.log("Fetched posts:", posts);
+  return <BlogList posts={posts} />;
 }
