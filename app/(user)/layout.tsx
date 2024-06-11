@@ -3,8 +3,8 @@ import '../../styles/globals.css'
 import Banner from '@/components/Banner';
 
 export const metadata = {
-  title: 'The Blog',
-  description: 'My Personal Blog',
+  title: 'Blog3',
+  description: 'Tzaff Web3 Blog',
 }
 
 export default function RootLayout({
@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='max-w-7xl mx-auto'>
+      <body className="max-w-7xl mx-auto bg-blue-100">
         <Header />
         <Banner />
         {children}
