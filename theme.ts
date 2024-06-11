@@ -38,7 +38,7 @@ export const myTheme = buildLegacyTheme({
 
     /* Navbar */
     "--main-navigation-color": props["--my-black"],
-    "--main-navigation-color-inverted": props["--my-white"],
+    //"--main-navigation-color-inverted": props["--my-white"],
 
     "--focus-color": props["--papafam-brand"],
 });
