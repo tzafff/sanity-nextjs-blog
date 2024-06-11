@@ -9,7 +9,8 @@ const Logo = () => {
         className="rounded-full object-cover"
         height={50}
         width={50}
-        src="https://ipfs.io/ipfs/QmTqG5PRZKyTkPoC4AjskX7q44wK8Wguk5azQnPwfYCCeg?filename=v5.png"
+        //src="https://ipfs.io/ipfs/QmTqG5PRZKyTkPoC4AjskX7q44wK8Wguk5azQnPwfYCCeg?filename=v5.png"
+        src="/v5.png"
         alt="logo"
       />
     </div>

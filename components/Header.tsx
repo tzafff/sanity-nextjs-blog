@@ -7,7 +7,8 @@ const Header = () => {
       <div className="flex items-center space-x-2">
         <Link href="/">
           <Image
-            src="https://ipfs.io/ipfs/QmTqG5PRZKyTkPoC4AjskX7q44wK8Wguk5azQnPwfYCCeg?filename=v5.png"
+            //src="https://ipfs.io/ipfs/QmTqG5PRZKyTkPoC4AjskX7q44wK8Wguk5azQnPwfYCCeg?filename=v5.png"
+            src="/v5.png"
             className="rounded-full"
             width={70}
             height={70}
