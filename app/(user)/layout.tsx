@@ -1,6 +1,8 @@
 import Header from '@/components/Header'
 import '../../styles/globals.css'
 import Banner from '@/components/Banner';
+import { Analytics } from "@vercel/analytics/react";
+import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Blog3',
@@ -15,9 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="max-w-7xl mx-auto bg-blue-100">
+        <Analytics />
         <Header />
         <Banner />
         {children}
+        <Footer />
       </body>
     </html>
   );
