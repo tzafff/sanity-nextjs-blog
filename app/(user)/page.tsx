@@ -8,7 +8,7 @@ const query = groq`
     ...,
     author->,
     categories[]->
-  } | order(publishedAt asc)
+  } | order(publishedAt desc)
 `;
 
 export const revalidate = 60; // Revalidate every 60 seconds
